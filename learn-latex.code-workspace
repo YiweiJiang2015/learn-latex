@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/*.aux": true,
+			"**/*.fdb_latexmk": true,
+			"**/*.synctex.gz":true,
+			"**/*.fls":true,
+			"**/*.log":true
+		}
+	}
+}
