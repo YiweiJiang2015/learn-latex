@@ -1,0 +1,28 @@
+\documentclass[12pt, a4paper, reqno]{amsart}
+
+\begin{document} 
+    \begin{equation}\label{E:firstIntegral}
+        \int_{0}^{\pi} \sin x \, dx = 2
+    \end{equation}
+    Eq. \eqref{E:firstIntegral} shows that \dots
+    \begin{align}
+        r^{2} &= s^{2} + t^{2}, \label{E:Pyth}\\
+        2u + 1&= v + w^{\alpha}. \label{E:alpha}
+    \end{align}
+    
+    \begin{align}
+        h(x) &= \int \left(\frac{f(x) + g(x)}{1 + f^{2}(x)} + 
+                \frac{1 + f(x)g(x)}{\sqrt[3]{1 - \sin x}} \right) dx \label{E:longInt}\\
+             &= \int \frac{1 + f(x)}{1 + g(x)} \, dx - 2\times\arctan (x-2) \notag
+    \end{align}
+
+    \begin{equation} \label{E:branchFx}
+        f(x) = 
+            \begin{cases}
+                -x^{2},     &\text{if $x < 0$;}\\
+                \theta + x, &\text{if $0 \leq x \leq 1$;}\\
+                x^{2},      &\text{otherwise.}
+            \end{cases}
+    \end{equation}
+    Eq. \eqref{E:branchFx} in page \pageref{E:branchFx} gives all the possibilities.
+\end{document}
